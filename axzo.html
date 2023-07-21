@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1">
+    <title>安心筑建筑业互联网平台-一智科技（成都）有限公司官网</title>
+    <meta name="description" content="公司致力于为建筑业提供开创性的解决方案，以“建筑+互联网”的思路，打造“安心筑建筑业互联网平台”，科技赋能建筑业规范化体系建设和升级，助力建筑业向信息化、智能化方向蓬勃发展。">
+    <meta name="keywords" content="安心筑,安心筑官网,项目管理,项目协作,薪资保障,劳务撮合,现场管理,工程管理,建筑工人,建筑管理,职业高效">
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.6.11/vue.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/4.5.1/css/swiper.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcdn.net/ajax/libs/Swiper/4.5.1/js/swiper.min.js"></script>
+    <script>
+      ;(function (doc, win) {
+        var docEl = doc.documentElement,
+          resizeEvt =
+            "orientationchange" in window ? "orientationchange" : "resize",
+          recalc = function () {
+            var clientWidth = docEl.clientWidth
+            if (!clientWidth) return
+            if (clientWidth >= 720) {
+              docEl.style.fontSize = "32px"
+            } else {
+              docEl.style.fontSize = (16 * clientWidth) / 360 + "px"
+            }
+          }
+
+        if (!doc.addEventListener) return
+        win.addEventListener(resizeEvt, recalc, false)
+        doc.addEventListener("DOMContentLoaded", recalc, false)
+      })(document, window)
+    </script>
+  <link href="./static/css/common.154ab662f363d284c215.css" rel="stylesheet"><link href="./static/css/index.710f5ebf4f514b3d34fd.css" rel="stylesheet"></head>
+  <body>
+    <div class="home-page" id="app" v-cloak>
+      <div class="home-top">
+        <header> <div class="header header-out flex col-center row-between"> <img src="/static/img/logo-header.png" class="logo"> <img @click="showMenu" src="/static/img/menu.png" class="menu" alt=""> </div> </header> <transition name="fade"> <div class="mask" v-if="show.mask" @click="hideAll"></div> </transition> <transition name="fade"> <div class="menu-info" v-if="show.menu"> <header> <div class="header flex col-center row-right"> <img @click="hideMenu" src="/static/img/close.png" class="menu" alt=""> </div> </header> <div class="menu-list"> <div class="menu-top">Menu</div> <a @click="toPage(item.url)" class="menu-item flex col row-between" :class="{'active':item.active}" v-for="(item,index) in menuList" :key="index"> <div class="menu-title"> <span>{{item.title}}</span> <div class="menu-line" v-if="item.active"></div> </div> <img src="/static/img/menu-point.png" class="menu-point" v-if="item.active"> <img src="/static/img/menu-right.png" class="menu-right" v-else> </a> </div> <img class="menu-logo" src="/static/img/logo-header.png"> </div> </transition> <transition name="fade"> <div class="mask mask-white" v-if="show.menu"></div> </transition> <style>body,html{display:none}</style> 
+        <img src="/static/img/home-banner1.png" class="home-banner-top">
+        <div class="line"></div>
+        <h3 class="banner-title">赋能建筑业未来</h3>
+        <div class="download flex col-center row-center" @click="download">
+          下载安心筑
+        </div>
+        <section class="download-icon flex row-center col-center">
+          <div class="flex icons">
+            <img class="ios" src="static/img/apple-gray.png">
+            <div>iPhone</div>
+          </div>
+          <div class="footer-line">|</div>
+          <div class="flex icons">
+            <img class="android" src="static/img/android-gray.png">
+            <div>android</div>
+          </div>
+        </section>
+      </div>
+      <div class="home-container">
+        <div class="swiper-home swiper-container">
+          <div class="swiper-wrapper">
+            <a href="javascript:;" class="swiper-slide">
+              <img class="swiper-banner" src="/static/img/h1.png" alt="">
+              <div class="info">
+                <div class="title">
+                  中国建筑业协会会长齐骥一行莅临我司考察指导，对安心筑平台予以高度评价
+                </div>
+                <div class="desc">
+                  9月16日下午，原国家住房和城乡建设部副部长、现任中国建筑业协会会长齐骥、副会长兼秘书长刘锦章、副秘书长景万一行，专程到我司对“安心筑建筑业互联网平台”（以下简称安心筑平台）进行了考察调研。
+                </div>
+              </div>
+            </a>
+            <a href="javascript:;" class="swiper-slide">
+              <img class="swiper-banner" src="/static/img/h2.png" alt="">
+              <div class="info">
+                <div class="title">中国建筑业发展分析报告</div>
+                <div class="desc">
+                  根据国家统计局公布的数据，从建筑业增加值、建筑业固定资产投资和总产值、从业人数和企业数量、劳动生产率、企业利润总量和行业产值利润率、合同总额和新签合同额、房屋建筑施工面积和竣工面积、对外承包工程完成营业额和新签合同额、对外劳务人员、施工企业中标量、公投市场专业分析、下浮率和开放度等方面，对去年建筑业总体情况进行分析以供参考。
+                </div>
+              </div>
+            </a>
+            <a href="javascript:;" class="swiper-slide">
+              <img class="swiper-banner" src="/static/img/h3.png" alt="">
+              <div class="info">
+                <div class="title">
+                  重磅！5月1日起施行！《保障农民工工资支付条例》亮点解读！
+                </div>
+                <div class="desc">
+                  2020年1月《保障农民工工资支付条例》正式发布，2020年5月1日起施行。《条例》提出：
+                  第二十四条规定：人工费用拨付周期不得超过1个月。
+                  第二十八条规定：未订立劳动合同、用工实名登记的人员，不得进入项目现场施工。
+                </div>
+              </div>
+            </a>
+          </div>
+          <!-- 如果需要分页器 -->
+          <div class="swiper-pagination"></div>
+        </div>
+        <section class="aboutus">
+          <h3 class="title">关于我们</h3>
+          <p class="about-desc">
+            公司汇集建筑、互联网、区块链、云计算、AI、金融、保险、税务等领域的资深专家，以“建筑+互联网”的思路，基于大数据、区块链、云计算、AI、物联网等现代科技，打造“安心筑建筑业互联网平台”。
+          </p>
+          <div class="we-can flex-col col-center row-center">
+            <div class="title">我们能做什么？</div>
+            <p><strong>为政府</strong>降低监管成本，挽回税收损失</p>
+            <p><strong>为企业</strong>降低劳务成本，规避恶意讨薪</p>
+            <p><strong>为班组</strong>减少高额垫资，提高管理效率</p>
+            <p><strong>为工人</strong>规避恶意欠薪，提高出勤及收入</p>
+          </div>
+        </section>
+        <section class="function">
+          <h3 class="fn-title">四大核心功能</h3>
+          <h3 class="fn-title">为建筑工人保驾护航</h3>
+          <div class="fn-desc">
+            <!-- <p>安心筑助力深入贯彻落实《保障农民工工资支付条</p>
+            <p>例》，确保工人工资“按月”、“足</p>
+            <p>额”、“发薪到卡”。</p> -->
+            <p>
+              安心筑助力深入贯彻落实《保障农民工工资支付条例》，确保工人工资“按月”、“足额”、“发薪到卡”。
+            </p>
+          </div>
+          <div class="items flex-col col-center">
+            <div class="item flex">
+              <div class="item-img">
+                <img src="/static/img/item-name.png" alt="">
+              </div>
+              <div class="item-desc">
+                <h3 class="item-title">实名制管理</h3>
+                <p>提高管理效率，降低管理成本</p>
+              </div>
+            </div>
+            <div class="item flex">
+              <div class="item-img">
+                <img src="/static/img/item-cm.png" alt="">
+              </div>
+              <div class="item-desc">
+                <h3 class="item-title">合约管理</h3>
+                <p>线上合约管理，快速签订合约</p>
+              </div>
+            </div>
+            <div class="item flex">
+              <div class="item-img">
+                <img src="/static/img/item-task.png" alt="">
+              </div>
+              <div class="item-desc">
+                <h3 class="item-title">记工管理</h3>
+                <p>数据可被追溯，降低信任门槛</p>
+              </div>
+            </div>
+            <div class="item flex">
+              <div class="item-img">
+                <img src="/static/img/item-pay.png" alt="">
+              </div>
+              <div class="item-desc">
+                <h3 class="item-title">发薪管理</h3>
+                <p>薪资发放高效便捷，按月足额 发薪到卡</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="company"> <h3 class="title">合作企业</h3> <div class="logo-item"> <div class="item flex row-between"> <img class="zx" src="/static/img/ga.png" alt=""> <img class="zxyh" src="/static/img/cj.png" alt=""> </div> <div class="item flex row-between"> <img class="ccb" src="/static/img/zy.png" alt=""> <img class="vanke" src="/static/img/wk.png" alt=""> </div> <div class="item flex row-between"> <img class="zz" src="/static/img/zx.png" alt=""> <img class="except" src="/static/img/gd.png" alt=""> </div> </div> <div class="form-container" id="formData"> <h3 class="form-title">为了更好的了解我们的产品请联系我们</h3> <div class="input-text flex row-center"> <input v-model.trim="form.company" type="text" placeholder="企业名称"> </div> <div class="input-text flex row-center"> <input v-model.trim="form.name" type="text" placeholder="姓名"> </div> <div class="input-text flex row-center"> <input v-model.trim="form.tel" type="number" placeholder="联系方式"> </div> <div @click="formSubmit()" class="submit flex row-center">确认并提交</div> </div> </section> <section class="user-download"> <div class="title"> <h3>我们是工人，</h3> <h3>城市的建设者。</h3> </div> <div class="desc"> <p>我们想要薪资有保障，</p> <p>随时有活干，</p> <p>活得有尊严。</p> </div> <div class="tips flex row-between"> <div class="tip flex-col col-center"> <img src="/static/img/icon-set.png" alt=""> <span>职业高效</span> </div> <div class="tip flex-col col-center"> <img src="/static/img/icon-tips.png" alt=""> <span>安心工作</span> </div> <div class="tip flex-col col-center"> <img src="/static/img/icon-money.png" alt=""> <span>薪资保障</span> </div> </div> <a href="download.html" class="btn flex row-between"> <span>下载APP</span> <img src="/static/img/right.png" class="right" alt=""> </a> </section> 
+      </div>
+       <transition name="fade"> <section class="download-panel" v-show="show.download"> <h3>选择下载版本</h3> <div class="item flex col-center" @click="downloadApp('cm')"> <img src="/static/img/worker.png" alt=""> <span>安心筑App<i>（班组长、工人）</i></span> </div> <div class="item flex col-center" @click="downloadApp('cmp')"> <img src="/static/img/leader.png" alt=""> <span>安心筑企业版App<i>（管理人员）</i></span> </div> </section> </transition>   <footer> <img class="logo" src="/static/img/footer-logo.png" alt=""> <p>版权所有一智科技（成都）有限公司 蜀ICP备 19041790号-1</p> </footer>
+    </div>
+  <script src="./static/js/common.154ab662f363d284c215.js"></script><script src="./static/js/index.710f5ebf4f514b3d34fd.js"></script></body>
+</html>
